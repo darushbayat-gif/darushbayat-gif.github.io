@@ -6,7 +6,7 @@ No rights reserved. ❤️
 :root {
     --bg: #F5F5F5;
     --dim: #8b919a;
-    --accent: #0d6efd;
+    --accent: #FF0000;
 
     --mono: Consolas, "Courier New", monospace;
     --times: "Times New Roman", Times, serif;
@@ -139,6 +139,3 @@ nav ul::-webkit-scrollbar {
     border-color: var(--accent);
 }
 
-.text-info {
-    color: #0d6efd !important;
-}

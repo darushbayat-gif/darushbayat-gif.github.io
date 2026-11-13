@@ -4,20 +4,12 @@ No rights reserved. ❤️
 */
 
 :root {
-    --bg: #FDFBD4;
-    --text: #e6e8eb;
+    --bg: #F5F5F5;
     --dim: #8b919a;
-    --accent: #00aff0;
-    --line: #292d35;
+    --accent: #333333;
 
     --mono: Consolas, "Courier New", monospace;
     --times: "Times New Roman", Times, serif;
-
-    --font-size: 15px;
-    --font-small: 12px;
-
-    --content-width: 1000px;
-    --page-padding: 24px;
 }
 
 @font-face {

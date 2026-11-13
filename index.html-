@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+        <!-- The CSS Mafia -->
+        <link rel="stylesheet" href="../css/bootstrap.css" />
+        <link rel="stylesheet" href="../css/custom.css" />
+
+        <title>About</title>
+    </head>
+
+    <body>
+        <header class="container py-3">
+            <h1 class="Ubuntu logo">Dariush</h1>
+            <p class="text-secondary">My little corner of the internet</p>
+        </header>
+
+        <nav class="navbar navbar-expand navbar-dark bg-dark sticky-top border-bottom custom-navbar Ubuntu">
+            <div class="container">
+                <ul class="navbar-nav nav-pills flex-row flex-nowrap gap-2 overflow-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="YOUR_SITE">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/projects/">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact/">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <main class="container py-3">
+            <p class="text-info mb-4 Ubuntu"><em>About</em></p>
+
+            <p>
+                "YOURSITE" is my personal website. for my experiments, software dev, and other things by
+                <strong>Daryoosh</strong>.
+            </p>
+
+            <h4 class="text-info">Technical</h4>
+
+            <p>
+                <strong>Website:</strong> HTML, CSS, and a little JavaScript<br />
+                <strong>Hosting:</strong> YOUR HOST<br />
+                <strong>Source code:</strong> Publicly available on my ...<br />
+                <strong>Server-side code:</strong> None<br />
+                <strong>Analytics:</strong> <a href="https://goatcounter.com/">GoatCounter</a><br />
+                <strong>CSS Framework:</strong> <a href="https://getbootstrap.com/">Bootstrap</a><br />
+                <strong>HTML base:</strong> Based on Isotope v2.2<br />
+                <strong>Launched:</strong> November 14, 2026<br />
+                <strong>Website HTML license:</strong> YOUR_LICENSE<br />
+                <strong>Website JavaScript and custom CSS license:</strong> Public Domain<br />
+                <strong>Copyright:</strong> © YOUR_COPYRIGHT
+            </p>
+
+            <p>
+                Built with FOSS software:
+                <a href="https://getbootstrap.com/">Bootstrap</a>,
+                <a href="https://notepad-plus-plus.org/">Notepad++</a>,
+                <a href="https://www.firefox.com/en/">Firefox</a>
+            </p>
+        </main>
+
+        <footer class="container text-center py-4 text-secondary small">
+            <hr />
+
+            <!-- A little JavaScript trick to keep the copyright year up to date -->
+            <p>
+                Copyright © 2026 –
+                <span id="year"></span>
+                <script src="footer.js" defer></script>
+                Dariush Projects
+            </p>
+
+            <p>Designed and developed by Mahyar. based on Isotope v2.2</p>
+        </footer>
+    </body>
+</html>

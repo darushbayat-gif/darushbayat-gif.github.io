@@ -5,15 +5,15 @@
         <meta name="viewport" content="width=device-width,initial-scale=1" />
 
         <!-- The CSS Mafia -->
-        <link rel="stylesheet" href="css/bootstrap.css" />
-        <link rel="stylesheet" href="css/custom.css" />
+        <link rel="stylesheet" href="../css/bootstrap.css" />
+        <link rel="stylesheet" href="../css/custom.css" />
 
-        <title>Home</title>
+        <title>Contact</title>
     </head>
 
     <body>
         <header class="container py-3">
-            <h1 class="Ubuntu logo">Darush's website</h1>
+            <h1 class="Ubuntu logo">Darush's Website</h1>
             <p class="text-secondary">My little corner of the internet</p>
         </header>
 
@@ -21,7 +21,7 @@
             <div class="container">
                 <ul class="navbar-nav nav-pills flex-row flex-nowrap gap-2 overflow-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="https://darushbayat-gif.github.io/">Home</a>
+                        <a class="nav-link" href="https://darushbayat-gif.github.io/">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://darushbayat-gif.github.io/about/">About</a>
@@ -30,30 +30,41 @@
                         <a class="nav-link" href="https://darushbayat-gif.github.io/projects/">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://darushbayat-gif.github.io/contact/">Contact</a>
+                        <a class="nav-link active" href="https://darushbayat-gif.github.io/contact/">Contact</a>
                     </li>
                 </ul>
             </div>
         </nav>
 
         <main class="container py-3">
+            <h6 class="text-info mb-4 Ubuntu"><em>Contact me</em></h6>
 
-            <p>Hi there! Welcome to my little corner of the internet.</p>
+            <p>Have a question, suggestion, or idea? Feel free to reach out through the channels below.</p>
 
-            <p>
-                This is my personal website, where I share my interests, experiences, and a few things worth
-                documenting.
-            </p>
+            <div class="contact">
+                <div>
+                    <img src="icon/envelope-solid-full.svg" height="25" />
+                    <span class="label">Email</span><br />
+                    <a href="mailto:#">example@exmaple.com</a>
+                </div>
+                <br />
 
-            <p>
-                I enjoy working with Microsoft Office, especially Excel. There's something satisfying about a
-                well-organized spreadsheet and a formula that actually works!
-            </p>
+                <div>
+                    <img src="icon/github-brands-solid-full.svg" height="25" />
+                    <span class="label">GitHub</span><br />
+                    <a href="#">github.com/exampledaryoosh</a><br />
+                </div>
+                <br />
 
-            <p><strong>Thank you for visiting. Please don't break anything. Cheers.</strong></p>
-
-            <p><em class="text-secondary">Darush</em></p>
+                <div>
+                    <img src="icon/link-solid-full.svg" height="25" />
+                    <span class="label">Lynx</span><br />
+                    <a href="#/links">yoursite/links</a><br />
+                </div>
+            </div>
         </main>
+
+        <p></p>
 
         <footer class="container text-center py-4 text-secondary small">
             <hr />
@@ -62,9 +73,11 @@
             <p>
                 Copyright © 2026 –
                 <span id="year"></span>
-                <script src="js/footer.js" defer></script>
-                Darush Projects
+                <script src="../js/footer.js" defer></script>
+                Dariush Projects
             </p>
+
+            <p>Icons by <a href="https://fontawesome.com/">Font Awesome</a></p>
 
             <p>Designed and developed by Mahyar. based on Isotope v2.2</p>
         </footer>

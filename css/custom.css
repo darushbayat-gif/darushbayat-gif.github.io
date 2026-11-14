@@ -62,11 +62,13 @@ footer {
     border-color: var(--line) !important;
 }
 
+/*
 a:not(.custom-navbar a),
 a:not(.custom-navbar a):visited {
     color: var(--accent);
     text-decoration: none;
 }
+*/
 
 .label {
     color: var(--dim);

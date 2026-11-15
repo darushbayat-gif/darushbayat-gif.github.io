@@ -6,7 +6,8 @@ No rights reserved. ❤️
 :root {
     --bg: #ffffff;
     --dim: #8b919a;
-    --accent: #3A2DFF;
+    --accent: #712a95;
+    --link: #9b32d2;
 
     --mono: Consolas, "Courier New", monospace;
     --times: "Times New Roman", Times, serif;
@@ -62,13 +63,11 @@ footer {
     border-color: var(--line) !important;
 }
 
-/*
 a:not(.custom-navbar a),
 a:not(.custom-navbar a):visited {
-    color: var(--accent);
-    text-decoration: none;
+    color: var(--link);
+    /* text-decoration: none; */
 }
-*/
 
 .label {
     color: var(--dim);
@@ -141,3 +140,6 @@ nav ul::-webkit-scrollbar {
     border-color: var(--accent);
 }
 
+.text-info {
+    color: var(--accent) !important;
+}
